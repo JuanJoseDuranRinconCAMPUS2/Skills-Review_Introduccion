@@ -1,11 +1,15 @@
 from colorama import init, Fore, Back, Style
-from PIL import Image
 
-
-""" 4. Que son las expresiones regulares en Python? """
-
-print(Fore.MAGENTA+" \t son expresiones comodín que definen patrones de caracteres a emparejar y extraer de una cadena de texto por ejemplo tenemos:")
-print(Fore.CYAN+" \t . ^ $ * + ? { } [ ] \ | ( )")
-
-im = Image.open('/home/sputnik-9/Documents/JuanJoseDuranRincon/python/SKILLS REVIEW|introduccion/regex.png')
-im.show()
+""" 5. Enumere 5 tipos de datos en Python y suministre un valor de
+ejemplo de cada uno. """
+numeros=(1,2,3,4,5)
+Str= "Hello World"
+Int= 4
+Float = 0.5
+Bool= True
+list=["hola", 23, "programador graduado de plazit :3"]
+print(numeros[0] , Fore.MAGENTA+"STR(Texto)ejemplo =" , Str)
+print(numeros[1] , Fore.BLUE+"Int(Numero entero) ejemplo =" , Int)
+print(numeros[2] , Fore.RED+"Int(Numero Decimal) ejemplo =" , Float)
+print(numeros[3] , Fore.YELLOW+"Bool(Booleano) ejemplo =" , Bool)
+print(numeros[4] , Fore.GREEN+"List(lista) ejemplo =" , list)
