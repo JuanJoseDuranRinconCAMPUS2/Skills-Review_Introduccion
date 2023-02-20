@@ -1,6 +1,19 @@
 from colorama import init, Fore, Back, Style
 
-""" 7. Cuál es la diferencia entre un condicional simple y un
-condicional compuesto? """
+""" 8. Escriba un bloque cualquiera de código en Python en donde
+utilice 2 condicionales (if) anidados. """
 
-print(Fore.YELLOW+"La diferencia es la cantidad de rutas que tenemos en una o en otra, en la condicional simple solo se puede realizar una accion o no hacerla \n dando como resultado un unico resultado, mientras que en en la compuesta hay varias acciones las cuales llevan a un mismo resultado pero con diferente ruta de procedimiento")
+numero=input(Fore.MAGENTA+"Ingresa un numero plis :3      ")
+numero=int(numero)
+
+if int(numero) == numero:
+    if numero %2== 0:
+        if numero >20:
+            print("El dato es un numero par y es mayor o igual a 20")
+        else:
+            print("El dato es un numero par menor que 20")
+    else:
+        print("El dato es un numero y es impar")
+
+else:
+    print("te dije que digitaras un numero >:c")
